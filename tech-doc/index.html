@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+  <header>
+    <title>Tech Docs</title>
+    <link href="tech-doc.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200|Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <script src="toggleDark.js" rel="javascript/text"></script>
+  </header>
+
+  <body id="body">
+
+    <nav id="navbar">
+
+      <div id="local-links">
+        <header>Technical Docs</header>
+        <li style="padding-top: 20px;"><a class=" nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Phase_1">Phase 1</a></li>
+        <li><a class="nav-link" href="#Phase_2">Phase 2</a></li>
+        <li><a class="nav-link" href="#Phase_3">Phase 3</a></li>
+        <li><a class="nav-link" href="#Phase_4">Phase 4</a></li>
+        <li style="padding: 20px 0 0 20px;"><button id="dark-button" onclick="toggleDark();">Toggle Dark Mode</button>
+        </li>
+      </div>
+
+      <div id="nav-bottom">
+        <p style="text-align: center;">
+          <a href="https://github.com/tggir1" target="_blank" id="github-link" rel='noopener noreferrer'>
+            Check out my other projects on Github
+          </a>
+        </p>
+      </div>
+
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header class="main-header">Introduction</header>
+        <p>This is a lightweight template that may be used for a technical documentation page. The available elements
+          include: section heading, paragraph, code block, and bullet point. Each of these may be used as many times as
+          necessary in a section.</p>
+
+        <p>While building this site,
+          the primary goals were high 'readibility' and simple navigation. For inspiration, I thought about different
+          books I've read and their unique formats. For example, while in high school, I found reading textbooks
+          unbearable--not because of the dry language, but because of all the colorful definitions, highlighted
+          text-boxes, boldened examples, and sporadically placed charts/pictures. With so much going on in a single
+          page, I couldn't keep focused on the text. This page is designed to be the opposite; with simple colors,
+          consistent fonts, and a special dark mode, I think I hit the mark.</p>
+        <p class="code-title">Code blocks will appear like the example below:</p>
+        <pre id="code1" class="code-container">
+<code>
+  function intro(input) {
+      let output = input.map(item => condition ? expressionA : expressionB);
+      return output;
+  };</code>
+        </pre>
+        <ul>
+          <li>Note </li>
+          <li>Bullet 2</li>
+        </ul>
+      </section>
+      <hr>
+      <section class="main-section" id="Phase_1">
+        <header class="main-header">Phase 1</header>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <pre id="code2" class="code-container">
+  <code>
+  function phaseOne() {
+      do something;
+      return somethingElse;
+  };</code>
+        </pre>
+        <ul>
+          <li>Bullet 1</li>
+          <li>Bullet 2</li>
+        </ul>
+      </section>
+      <hr>
+      <section class="main-section" id="Phase_2">
+        <header class="main-header">Phase 2</header>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <pre id="code3" class="code-container">
+<code>
+  function phaseTwo() {
+      do something;
+      return somethingElse;
+  };</code>
+        </pre>
+        <ul>
+          <li>Bullet 1</li>
+          <li>Bullet 2</li>
+        </ul>
+      </section>
+      <hr>
+      <section class="main-section" id="Phase_3">
+        <header class="main-header">Phase 3</header>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <pre id="code4" class="code-container">
+<code>
+  function phaseThree() {
+      do something;
+      return somethingElse;
+  };</code>
+        </pre>
+        <ul>
+          <li>Bullet 1</li>
+          <li>Bullet 2</li>
+        </ul>
+      </section>
+      <hr>
+      <section class="main-section" id="Phase_4">
+        <header class="main-header">Phase 4</header>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <pre id="code5" class="code-container">
+<code>
+  function phaseFour() {
+      do something;
+      return somethingElse;
+  };</code>
+        </pre>
+        <ul>
+          <li>Bullet 1</li>
+          <li>Bullet 2</li>
+        </ul>
+      </section>
+      <hr>
+    </main>
+  </body>
+
+</html>

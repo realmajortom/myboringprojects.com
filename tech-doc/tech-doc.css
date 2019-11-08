@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: black;
+  background-color: #f9f9fa;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.75;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+}
+li {
+  list-style: none;
+}
+/************ nav ************/
+nav {
+  background-color: #2e2e2e;
+  color: #f9f9fa;
+  font-family: 'IBM Plex Sans';
+  height: 100vh;
+  position: fixed;
+  font-size: 16px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav header {
+  background-color: #2e2e2e;
+  color: #f9f9fa;
+  font-size: 28px;
+  text-align: center;
+  padding: 7px;
+  border-bottom-style: solid;
+  border-color: #f9f9fa;
+  border-width: .5px;
+}
+nav li {
+  font-size: 20px;
+  /* padding: 10px 20px 10px 20px; */
+  padding: 0;
+}
+nav li a {
+  margin: 0;
+  color: #f9f9fa;
+  text-decoration: none;
+  display: block;
+  width: 220px;
+  height: 50px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  padding-left: 20px;
+}
+.nav-link:hover {
+  color: #00ffa6;
+}
+#github-link {
+  color: #E1CDFF;
+}
+#github-link:hover {
+  color: #6cc644;
+}
+/********* not-header *********/
+#not-header {
+  display: flex;
+  flex-direction: column;
+}
+
+/************ main ************/
+main {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 30px 0 290px;
+  height: 100%;
+  padding-bottom: 50px;
+}
+.main-section {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  max-width: 1100px;
+}
+.main-header {
+  font-weight: 500;
+  font-size: 36px;
+}
+hr {
+  color: black;
+}
+.code-title {
+  margin: 30px 0 0 30px;
+  padding: 0;
+  line-height: 1;
+  font-size: 14px;
+}
+.code-container {
+  display: inline-block;
+  background-color: #d3d3d3;
+  min-width: 300px;
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-left: 30px;
+  border-radius: 6px;
+}
+ul {
+  padding-left: 45px;
+}
+/************ @media ************/
+@media (max-width: 950px) {
+  nav {
+    width: 180px;
+  }
+  nav header {
+    font-size: 18px;
+  }
+  main {
+    margin-left: 210px;
+  }
+}
+
+/** Dark Mode **/
+.body-dark {
+  color: #c7c7c7;
+  background-color: #151515;
+}
+.code-dark {
+  background-color: #3c3c3c;
+  color: #ebebeb;
+}

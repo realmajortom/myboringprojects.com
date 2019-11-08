@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <Title>Count My Beans</Title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bean-counter.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Muli" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="beanCounter.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+
+    <header id="header">
+      <h1>Count My Beans!</h1>
+      <h2>High-Precision Coffee Calculator</h2>
+    </header>
+
+    <main>
+      <p id="explanation">
+        When calculating how much coffee to use for your morning brew, a solid starting place is 60 grams of coffee per liter of water. This tool is designed to make your mornings a tad simpler by doing the math for you!
+      </p>
+
+    <div class='send-it'>
+
+      <h3>Answer the following questions to get the perfect cup of joe:</h3>
+
+      <form id="bean-form">
+
+        <div class="sets">
+
+          <fieldset>
+            <legend>Desired strength:</legend>
+
+            <div class="labels">
+
+              <label for="strong">
+                <input id="strong" type="radio" name="strength" value="strong"> Strong
+              </label>
+
+              <label for="medium">
+                <input id="medium" type="radio" name="strength" value="medium"> Medium
+              </label>
+
+              <label for="mild">
+                <input id="mild" type="radio" name="strength" value="mild"> Mild
+              </label>
+
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Water measured in ounces or liters?</legend>
+
+            <div class="labels">
+
+              <label for="ounce">
+                <input id="ounce" type="radio" name="unit" value="ounce"> Ounce
+              </label>
+
+              <label for="liter">
+                <input id="liter" type="radio" name="unit" value="mL"> mL
+              </label>
+
+            </div>
+          </fieldset>
+
+          <fieldset>
+
+            <legend><label for='quantPut'>Quantity of water:</label></legend>
+
+            <input type="text" placeholder="ounces/mL" id="quantPut">
+
+          </fieldset>
+        </div>
+
+        <div>
+          <input id="submit-button" type="button" value="Submit">
+        </div>
+
+      </form>
+
+      <div id='results'></div>
+
+    </div>
+
+    </main>
+
+    <footer>
+      <a href="https://www.github.com/tggir1" target="_blank" rel='noopener noreferrer'>Check out my other projects on Github</a>
+    </footer>
+
+  </body>
+
+</html>
