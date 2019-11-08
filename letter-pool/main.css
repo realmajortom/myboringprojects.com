@@ -60,3 +60,10 @@ h2 {
   margin-top: 10vh;
 }
 
+
+.text-field {
+  font-size: 14pt;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
