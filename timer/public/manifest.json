@@ -1,0 +1,9 @@
+	{
+		"short_name": "Pushover",
+		"name": "Pushover Timer",
+		"icons": [],
+		"start_url": "myboringprojects.com/timer",
+		"display": "standalone",
+		"theme_color": "#000000",
+		"background_color": "#ffffff"
+	}

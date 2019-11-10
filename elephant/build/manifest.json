@@ -1,0 +1,9 @@
+{
+  "short_name": "Elephant",
+  "name": "Elephant Calculator",
+  "icons": [],
+  "start_url": "myboringprojects.com/elephant",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
